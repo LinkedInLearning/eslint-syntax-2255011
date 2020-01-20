@@ -26,5 +26,8 @@ module.exports = {
     ],
     'no-sparse-arrays': 'error',
     'no-template-curly-in-string': 'error',
+    'no-cond-assign': 'error',
+    'no-constant-condition': 'error',
+    'valid-typeof': 'error',
   },
 };

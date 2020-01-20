@@ -60,16 +60,16 @@ const greeting = `Hey ${firstName}!`;
 /*****************
  * General Logic *
  *****************/
-if (grade = 'a') {
+if (grade === 'a') {
   // do something
 }
 
 let temp = 22;
-if (false) {
+if (temp > 25) {
   // do something
 }
 
 const lastName = 'Vodnik';
-if (typeof lastName === 'strnig') {
+if (typeof lastName === 'string') {
   // do something
 }
