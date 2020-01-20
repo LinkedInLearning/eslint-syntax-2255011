@@ -51,10 +51,10 @@ const check = (token) => {
 /*******************
  * Accurate Values *
  *******************/
-const scores = [53, 72,, 81, 12];
+const scores = [53, 72, 81, 12];
 
 const firstName = 'Sasha';
-const greeting = 'Hey ${firstName}!';
+const greeting = `Hey ${firstName}!`;
 
 
 /*****************

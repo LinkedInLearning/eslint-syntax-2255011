@@ -24,5 +24,7 @@ module.exports = {
         'allow': ['error'],
       },
     ],
+    'no-sparse-arrays': 'error',
+    'no-template-curly-in-string': 'error',
   },
 };
