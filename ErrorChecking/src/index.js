@@ -40,9 +40,9 @@ if (grade === 'a') {
 const check = (token) => {
   if (!!token) {
     return token;
-  } else if (isNaN(token)) {
+//  } else if (isNaN(token)) {
   } else {
-    debugger;
+//    debugger;
     console.error('Invalid token value');
   }
 };

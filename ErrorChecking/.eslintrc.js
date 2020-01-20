@@ -16,5 +16,13 @@ module.exports = {
     'no-func-assign': 'error',
     'for-direction': 'error',
     'no-dupe-else-if': 'error',
+    'no-empty': 'error',
+    'no-debugger': 'error',
+    'no-console': [
+      'error',
+      {
+        'allow': ['error'],
+      },
+    ],
   },
 };
