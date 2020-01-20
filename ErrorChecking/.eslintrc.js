@@ -14,5 +14,7 @@ module.exports = {
   rules: {
     'no-dupe-args': 'error',
     'no-func-assign': 'error',
+    'for-direction': 'error',
+    'no-dupe-else-if': 'error',
   },
 };

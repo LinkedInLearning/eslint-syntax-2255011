@@ -16,7 +16,7 @@ const multiply = function(x, y) {
  * Loops & Conditionals *
  ************************/
 let counter = 0;
-for (let i = 10; i > 0; i += 1) {
+for (let i = 10; i > 0; i -= 1) {
   counter += i;
 }
 
@@ -27,7 +27,7 @@ if (grade === 'a') {
   // do something
 } else if (grade === 'c') {
   // do something
-} else if (grade === 'b') {
+} else if (grade === 'd') {
   // do something
 } else {
   // do something
