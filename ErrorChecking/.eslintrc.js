@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    
+    'no-dupe-args': 'error',
+    'no-func-assign': 'error',
   },
 };

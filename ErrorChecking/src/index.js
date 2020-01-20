@@ -3,11 +3,11 @@
 /*************
  * Functions *
  *************/
-function multiply(x, x) {
-  return (x * y);
-}
+// function multiply(x, y) {
+//   return (x * y);
+// }
 
-const multiply = function(x, x) {
+const multiply = function(x, y) {
   return (x * y);
 };
 
