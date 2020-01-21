@@ -17,20 +17,20 @@ const user = {
 };
 
 // Flag duplicate arguments in function
-const confirm = (sessions, sessions) => {
+const confirm = (sessions) => {
   // Flag invalid typeof comparison string
-  if (typeof(sessions) === 'objct' &&
+  if (typeof(sessions) === 'object' &&
       sessions.length &&
       sessions.length > 0) {
     let confirmation = sessions.map(function(session) {
       // Flag template literal syntax in string
-      const confText = '${user.firstName} ${user.lastName} is confirmed for ${session.sessionTitle} with ${session.sessionPresenter}';
+      const confText = `${user.firstName} ${user.lastName} is confirmed for ${session.sessionTitle} with ${session.sessionPresenter}`;
       return confText;
     });
     // Flag console method use other than console.warn
-    console.log(confirmation);
+    console.warn(confirmation);
   // Flag empty block in control flow structure
-  } else {
+  // } else {
   }
 };
 confirm(sessions, user);
