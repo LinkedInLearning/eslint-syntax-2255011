@@ -1,5 +1,5 @@
 # ESLint: Checking for Syntax and Logic Errors
-This is the repository for the LinkedIn Learning course [ESLint: Checking for Syntax and Logic Errors]. The full course is available from [LinkedIn Learning](LICOURSEURL).
+This is the repository for the LinkedIn Learning course [ESLint: Checking for Syntax and Logic Errors]. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![ESLint: Checking for Syntax and Logic Errors][lil-thumbnail-url] 
 
