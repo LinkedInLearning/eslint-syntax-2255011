@@ -12,7 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-dupe-args': 'error',
+    // 'no-dupe-args': 'error',
     'no-func-assign': 'error',
     'for-direction': 'error',
     'no-dupe-else-if': 'error',

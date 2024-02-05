@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 
 /*************
  * Functions *
@@ -7,7 +7,8 @@
 //   return (x * y);
 // }
 
-const multiply = function(x, y) {
+
+const multiply = function(x, x) {
   return (x * y);
 };
 
@@ -27,7 +28,7 @@ if (grade === 'a') {
   // do something
 } else if (grade === 'c') {
   // do something
-} else if (grade === 'd') {
+} else if (grade === 'b') {
   // do something
 } else {
   // do something
