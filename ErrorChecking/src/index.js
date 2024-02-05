@@ -8,7 +8,7 @@
 // }
 
 
-const multiply = function(x, x,) {
+const multiply = function(x, x) {
   return (x * y);
 };
 
